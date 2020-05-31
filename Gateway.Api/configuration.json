@@ -12,5 +12,10 @@
       "UpstreamPathTemplate": "/ibank/clients/",
       "UpstreamHttpMethod": [ "Get" ]
     }
-  ]
+  ],
+  "GlobalConfiguration": {
+    "FileCacheOptions": {
+      "TtlSeconds": 30
+    }
+  }
 }
